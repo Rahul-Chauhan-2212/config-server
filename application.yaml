@@ -1,0 +1,11 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-server:8760/eureka/
+  instance:
+    hostname: localhost
+spring:    
+  zipkin:
+    base-url: http://zipkin-server:9411/
