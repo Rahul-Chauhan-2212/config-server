@@ -5,7 +5,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-0.eureka:8760/eureka
   instance:
-    hostname: eureka-0
+    hostname: ${HOSTNAME}.eureka
 spring:    
   zipkin:
     base-url: http://zipkin-service-svc:80/
